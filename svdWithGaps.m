@@ -1,5 +1,5 @@
 function complete = svdWithGaps(data, varargin)
-%svdWithGaps impute data by decomposition of data matrix 'data' into
+%svdWithGaps imputes data by decomposition of data matrix 'data' into
 %singular vectors and later reconstruct all values.
 %
 %Inputs:
