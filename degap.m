@@ -1,5 +1,5 @@
 function [data, col] = degap( data, col)
-%Degap database
+% Degap recursively removes feature or record with the most fraction of missed values
 
     if size(data, 1) > length(col)
         %we need to transpose matrix

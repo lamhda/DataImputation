@@ -1,5 +1,5 @@
 function [complete, uncertainty] = kNNImpute(data, k, varargin)
-%kNNImpute impute data by weighted mean of k nearest neighbour. Nearest
+%kNNImpute imputes data by weighted mean of k nearest neighbour. Nearest
 %neighbours are defined by known values and intervals of distribution of
 %unknown values.
 %
